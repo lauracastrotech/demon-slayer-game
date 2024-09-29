@@ -24,8 +24,8 @@
 
 .grid-item{
   border-radius: 20px;
-  background: rgba(255, 255, 255, .9);
-  color: #2C2828;
+  background: rgba(0, 0, 0, .3);
+  color: white;
   font-size: 60px;
   text-align: center;
   padding: 20px;
