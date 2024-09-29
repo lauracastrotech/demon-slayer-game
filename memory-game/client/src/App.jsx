@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
 
-  const [tiles, setTiles] = useState([1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8]);
+  const [tiles, setTiles] = useState([null,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8]);
 
   const [isMatched, setIsMatched] = useState(false);
 
@@ -44,6 +44,7 @@ function App() {
               )
             })}
           </div>
+          <button>Reset</button>
         </div>
      </>
   );
